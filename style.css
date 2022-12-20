@@ -1,0 +1,54 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+}
+.container {
+    width: 450px;
+    height: 450px;
+    outline: 1px solid rgb(109, 193, 231);
+    display: flex;
+    flex-wrap: wrap;
+}
+.squere {
+    width: 150px;
+    height: 150px;
+    outline: 1px solid rgb(161, 90, 207);
+    background-color: rgb(226, 98, 243);
+}
+.start {
+    padding: 5px;
+    margin: 3px;
+    background-color: rgb(10, 190, 10);
+    color: black;
+    border: 1px solid rgb(151, 103, 103);
+    border-radius: 3px;
+}
+.mole-image {
+    background-image: url("mole-image.jpg");
+    background-size: contain;
+}
+button:disabled {
+    padding: 5px;
+    margin: 3px;
+    background-color: rgb(109, 240, 137);
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.over {
+    color: red;
+}
+.end {
+    padding: 5px;
+    margin: 3px;
+    background-color: rgb(10, 190, 10);
+    color: black;
+    border: 1px solid rgb(151, 103, 103);
+    border-radius: 3px;
+}
+.btn {
+    display: flex;
+}
